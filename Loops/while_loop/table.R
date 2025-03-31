@@ -1,9 +1,9 @@
-# Print table using while loop
+# Print a table using while loop
 
-user= as.integer(readline("Enter the number= "))
+num=as.integer(readline("Enter the number= "))
 i=1
-while(i<=10){
-table=(user*i)
-print(table)
+while (i<=10){
+x= (num*i)
+cat(num,"x",i,"=",x,"\n")
 i=i+1
 }
